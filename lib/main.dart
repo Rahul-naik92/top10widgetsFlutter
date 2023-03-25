@@ -19,6 +19,25 @@ class MyApp extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
+            Row(
+              children: [
+                Expanded(
+                  flex: 2,
+                  child: Container(
+                    color: Colors.red,
+                    height: 250,
+                    child: const Text("Container 1"),
+                  ),
+                ),
+                Expanded(
+                  child: Container(
+                    color: Colors.green,
+                    height: 250,
+                    child: const Text("Container 2"),
+                  ),
+                )
+              ],
+            ),
             Center(
               child: Container(
                 height: 250,
