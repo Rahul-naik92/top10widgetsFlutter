@@ -21,19 +21,25 @@ class MyApp extends StatelessWidget {
           children: [
             Center(
               child: Container(
-                height: 200,
-                width: 200,
-                padding: EdgeInsets.all(20),
+                height: 250,
+                width: 250,
+                padding: const EdgeInsets.all(5),
                 decoration: BoxDecoration(
                   color: Colors.orange,
-                  borderRadius: BorderRadius.circular(50),
-                  border: Border.all(
-                    width: 20,
-                    color: Colors.black12,
-                  ),
+                  borderRadius: BorderRadius.circular(10.0),
+                  image: const DecorationImage(
+                      fit: BoxFit.cover,
+                      image: NetworkImage(
+                          "https://images.pexels.com/photos/10757699/pexels-photo-10757699.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")),
+                  boxShadow: const [
+                    BoxShadow(
+                      color: Colors.red,
+                      blurRadius: 5,
+                    ),
+                  ],
                 ),
                 child: const Center(
-                  child: Text("Container"),
+                  child: Text("Login"),
                 ),
               ),
             )
