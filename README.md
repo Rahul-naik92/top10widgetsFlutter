@@ -13,3 +13,9 @@ Creating Button Using Container::
 Usage of transform property using Container::
 
 ![image](https://user-images.githubusercontent.com/73591592/227713090-e87c7100-18e1-484b-afff-a937785cfe8d.png)
+
+
+Usage of Circle Avatra Widget
+
+![image](https://user-images.githubusercontent.com/73591592/227770543-e0da281a-2549-46b7-84ad-b530e57f036a.png)
+
